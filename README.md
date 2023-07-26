@@ -10,6 +10,11 @@
 [[거스름돈]](https://github.com/tember8003/cpp/blob/main/baekjoon_14916.cpp) [[욱제는 사과팬이야!!]](https://github.com/tember8003/cpp/blob/main/baekjoon_15924.cpp) [[1,2,3 더하기 3]](https://github.com/tember8003/cpp/blob/main/baekjoon_15988.cpp)
 [[1,2,3 더하기 5]](https://github.com/tember8003/cpp/blob/main/baekjoon_15990.cpp) [[카드 구매하기 2]](https://github.com/tember8003/cpp/blob/main/baekjoon_16194.cpp) [[제곱수의 합]](https://github.com/tember8003/cpp/blob/main/baekjoon_1699.cpp)
 [[병사 배치하기]](https://github.com/tember8003/cpp/blob/main/baekjoon_18353.cpp) [[상자 넣기]](https://github.com/tember8003/cpp/blob/main/baekjoon_1965.cpp)
+[[신나는 함수 실행]](https://github.com/tember8003/cpp/blob/main/baekjoon_9184.cpp)
+[[Generations of Tribbles]](https://github.com/tember8003/cpp/blob/main/baekjoon_9507.cpp) 
+[[돌게임 4]](https://github.com/tember8003/cpp/blob/main/baekjoon_9658.cpp)
+
+
 
 
 ***
@@ -83,3 +88,4 @@
 [[거북이]](https://github.com/tember8003/cpp/blob/main/baekjoon_8911.cpp)
 
 ***
+
