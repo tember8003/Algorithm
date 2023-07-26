@@ -14,7 +14,9 @@
 [[Generations of Tribbles]](https://github.com/tember8003/cpp/blob/main/baekjoon_9507.cpp) 
 [[돌게임 4]](https://github.com/tember8003/cpp/blob/main/baekjoon_9658.cpp)
 [[이친수]](https://github.com/tember8003/cpp/blob/main/baekjoon_2193.cpp)
-
+[[전깃줄]](https://github.com/tember8003/cpp/blob/main/baekjoon_2565.cpp)
+[[계단 오르기]](https://github.com/tember8003/cpp/blob/main/baekjoon_2579.c)
+[[줄어들지 않아]](https://github.com/tember8003/cpp/blob/main/baekjoon_2688.cpp)
 
 
 
@@ -56,6 +58,7 @@
 [[시리얼 번호]](https://github.com/tember8003/cpp/blob/main/baekjoon_1431.cpp) [[좌표 압축]](https://github.com/tember8003/cpp/blob/main/baekjoon_18870.cpp)
 [[순회강연]](https://github.com/tember8003/cpp/blob/main/baekjoon_2109.cpp)
 [[수 고르기]](https://github.com/tember8003/cpp/blob/main/baekjoon_2230.cpp)
+[[두 수의 합]](https://github.com/tember8003/cpp/blob/main/baekjoon_3273.cpp)
 
 ***
 
@@ -63,6 +66,8 @@
 
 [[DFS와 BFS]](https://github.com/tember8003/cpp/blob/main/baekjoon_1260.cpp)
 [[너비 우선 탐색 1]](https://github.com/tember8003/cpp/blob/main/baekjoon_24444.cpp)
+[[깊이 우선 탐색 1]](https://github.com/tember8003/cpp/blob/main/baekjoon_24479.cpp)
+[[단지 번호 붙이기]](https://github.com/tember8003/cpp/blob/main/baekjoon_2667.cpp)
 
 ***
 
@@ -71,6 +76,9 @@
 [[잃어버린 괄호]](https://github.com/tember8003/cpp/blob/main/baekjoon_1541.cpp) [[골드바흐 파티션]](https://github.com/tember8003/cpp/blob/main/baekjoon_17103.cpp) [[약수의 합 2]](https://github.com/tember8003/cpp/blob/main/baekjoon_17427.cpp)
 [[수들의 합]](https://github.com/tember8003/cpp/blob/main/baekjoon_1789.cpp) [[조합 0의 개수]](https://github.com/tember8003/cpp/blob/main/baekjoon_2004.cpp) 
 [[골드바흐의 추측]](https://github.com/tember8003/cpp/blob/main/baekjoon_6588.cpp)
+[[숫자의 개수]](https://github.com/tember8003/cpp/blob/main/baekjoon_2577.c)
+[[나머지]](https://github.com/tember8003/cpp/blob/main/baekjoon_3052.c)
+
 
 ***
 
@@ -93,6 +101,8 @@
 ***
 
 # 재귀
+
+[[별 찍기 -10]](https://github.com/tember8003/cpp/blob/main/baekjoon_2447.cpp)
 
 ***
 
