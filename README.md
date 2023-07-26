@@ -61,7 +61,8 @@
 ### 수학
 
 [[잃어버린 괄호]](https://github.com/tember8003/cpp/blob/main/baekjoon_1541.cpp) [[골드바흐 파티션]](https://github.com/tember8003/cpp/blob/main/baekjoon_17103.cpp) [[약수의 합 2]](https://github.com/tember8003/cpp/blob/main/baekjoon_17427.cpp)
-[[수들의 합]](https://github.com/tember8003/cpp/blob/main/baekjoon_1789.cpp) [[조합 0의 개수]](https://github.com/tember8003/cpp/blob/main/baekjoon_2004.cpp)
+[[수들의 합]](https://github.com/tember8003/cpp/blob/main/baekjoon_1789.cpp) [[조합 0의 개수]](https://github.com/tember8003/cpp/blob/main/baekjoon_2004.cpp) 
+[[골드바흐의 추측]](https://github.com/tember8003/cpp/blob/main/baekjoon_6588.cpp)
 
 ***
 
@@ -74,5 +75,11 @@
 ### 큐
 
 [[큐2]](https://github.com/tember8003/cpp/blob/main/baekjoon_18258.cpp)
+
+***
+
+### 구현
+
+[[거북이]](https://github.com/tember8003/cpp/blob/main/baekjoon_8911.cpp)
 
 ***
