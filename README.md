@@ -14,7 +14,7 @@
 
 ***
 
-###브루트포스 알고리즘
+### 브루트포스 알고리즘
 
 [[수들의 합2]](https://github.com/tember8003/cpp/blob/main/baekjoon_2003.cpp) 
 
@@ -38,13 +38,13 @@
 
 ***
 
-###누적 합
+### 누적 합
 
 [[구간 합 구하기 4]](https://github.com/tember8003/cpp/blob/main/baekjoon_11659.cpp) 
 
 ***
 
-###정렬
+### 정렬
 
 [[배열 합치기]](https://github.com/tember8003/cpp/blob/main/baekjoon_11728.cpp) [[좋다]](https://github.com/tember8003/cpp/blob/main/baekjoon_1253.cpp)
 [[시리얼 번호]](https://github.com/tember8003/cpp/blob/main/baekjoon_1431.cpp) [[좌표 압축]](https://github.com/tember8003/cpp/blob/main/baekjoon_18870.cpp)
@@ -52,26 +52,26 @@
 
 ***
 
-###그래프
+### 그래프
 
 [[DFS와 BFS]](https://github.com/tember8003/cpp/blob/main/baekjoon_1260.cpp)
 
 ***
 
-###수학
+### 수학
 
 [[잃어버린 괄호]](https://github.com/tember8003/cpp/blob/main/baekjoon_1541.cpp) [[골드바흐 파티션]](https://github.com/tember8003/cpp/blob/main/baekjoon_17103.cpp) [[약수의 합 2]](https://github.com/tember8003/cpp/blob/main/baekjoon_17427.cpp)
 [[수들의 합]](https://github.com/tember8003/cpp/blob/main/baekjoon_1789.cpp) [[조합 0의 개수]](https://github.com/tember8003/cpp/blob/main/baekjoon_2004.cpp)
 
 ***
 
-###투 포인터
+### 투 포인터
 
 [[소수의 연속합]](https://github.com/tember8003/cpp/blob/main/baekjoon_1644.cpp)
 
 ***
 
-###큐
+### 큐
 
 [[큐2]](https://github.com/tember8003/cpp/blob/main/baekjoon_18258.cpp)
 
