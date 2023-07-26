@@ -13,6 +13,7 @@
 [[신나는 함수 실행]](https://github.com/tember8003/cpp/blob/main/baekjoon_9184.cpp)
 [[Generations of Tribbles]](https://github.com/tember8003/cpp/blob/main/baekjoon_9507.cpp) 
 [[돌게임 4]](https://github.com/tember8003/cpp/blob/main/baekjoon_9658.cpp)
+[[이친수]](https://github.com/tember8003/cpp/blob/main/baekjoon_2193.cpp)
 
 
 
@@ -54,6 +55,7 @@
 [[배열 합치기]](https://github.com/tember8003/cpp/blob/main/baekjoon_11728.cpp) [[좋다]](https://github.com/tember8003/cpp/blob/main/baekjoon_1253.cpp)
 [[시리얼 번호]](https://github.com/tember8003/cpp/blob/main/baekjoon_1431.cpp) [[좌표 압축]](https://github.com/tember8003/cpp/blob/main/baekjoon_18870.cpp)
 [[순회강연]](https://github.com/tember8003/cpp/blob/main/baekjoon_2109.cpp)
+[[수 고르기]](https://github.com/tember8003/cpp/blob/main/baekjoon_2230.cpp)
 
 ***
 
