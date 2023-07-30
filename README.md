@@ -24,7 +24,7 @@
 
 ### 브루트포스 알고리즘
 
-[[수들의 합2]](https://github.com/tember8003/cpp/blob/main/baekjoon_2003.cpp) 
+[[수들의 합2]](https://github.com/tember8003/cpp/blob/main/baekjoon_2003.cpp) [[체스판 다시 칠하기]](https://github.com/tember8003/cpp/blob/main/baekjoon_1018.cpp)
 
 ***
 
@@ -58,7 +58,7 @@
 [[시리얼 번호]](https://github.com/tember8003/cpp/blob/main/baekjoon_1431.cpp) [[좌표 압축]](https://github.com/tember8003/cpp/blob/main/baekjoon_18870.cpp)
 [[순회강연]](https://github.com/tember8003/cpp/blob/main/baekjoon_2109.cpp)
 [[수 고르기]](https://github.com/tember8003/cpp/blob/main/baekjoon_2230.cpp)
-[[두 수의 합]](https://github.com/tember8003/cpp/blob/main/baekjoon_3273.cpp)
+[[두 수의 합]](https://github.com/tember8003/cpp/blob/main/baekjoon_3273.cpp) [[베스트셀러]](https://github.com/tember8003/cpp/blob/main/baekjoon_1302.cpp)
 
 ***
 
