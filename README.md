@@ -16,8 +16,7 @@
 [[이친수]](https://github.com/tember8003/cpp/blob/main/baekjoon_2193.cpp)
 [[전깃줄]](https://github.com/tember8003/cpp/blob/main/baekjoon_2565.cpp)
 [[계단 오르기]](https://github.com/tember8003/cpp/blob/main/baekjoon_2579.c)
-[[줄어들지 않아]](https://github.com/tember8003/cpp/blob/main/baekjoon_2688.cpp)
-
+[[줄어들지 않아]](https://github.com/tember8003/cpp/blob/main/baekjoon_2688.cpp) [[RGB거리]](https://github.com/tember8003/cpp/blob/main/baekjoon_1149.cpp)
 
 
 ***
