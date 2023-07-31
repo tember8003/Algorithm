@@ -78,6 +78,7 @@
 [[골드바흐의 추측]](https://github.com/tember8003/cpp/blob/main/baekjoon_6588.cpp)
 [[숫자의 개수]](https://github.com/tember8003/cpp/blob/main/baekjoon_2577.c)
 [[나머지]](https://github.com/tember8003/cpp/blob/main/baekjoon_3052.c)
+[[최소공배수]](https://github.com/tember8003/cpp/blob/main/baekjoon_13241.cpp)
 
 
 ***
