@@ -17,6 +17,9 @@
 [[전깃줄]](https://github.com/tember8003/cpp/blob/main/baekjoon_2565.cpp)
 [[계단 오르기]](https://github.com/tember8003/cpp/blob/main/baekjoon_2579.c)
 [[줄어들지 않아]](https://github.com/tember8003/cpp/blob/main/baekjoon_2688.cpp) [[RGB거리]](https://github.com/tember8003/cpp/blob/main/baekjoon_1149.cpp)
+[[가장 긴 바이토닉 부분 수열]](https://github.com/tember8003/cpp/blob/main/baekjoon_11054.cpp) [[쉬운 계단 수]](https://github.com/tember8003/cpp/blob/main/baekjoon_10844.cpp)
+[[정수 삼각형]](https://github.com/tember8003/cpp/blob/main/baekjoon_1932.cpp)
+
 
 
 ***
@@ -47,7 +50,7 @@
 
 ### 누적 합
 
-[[구간 합 구하기 4]](https://github.com/tember8003/cpp/blob/main/baekjoon_11659.cpp) 
+[[구간 합 구하기 4]](https://github.com/tember8003/cpp/blob/main/baekjoon_11659.cpp) [[수열]](https://github.com/tember8003/cpp/blob/main/baekjoon_2559.cpp)
 
 ***
 
@@ -108,6 +111,10 @@
 
 ### 맵
 
-[[숫자 카드]](https://github.com/tember8003/cpp/blob/main/baekjoon_10815.cpp)
+[[숫자 카드]](https://github.com/tember8003/cpp/blob/main/baekjoon_10815.cpp) [[영단어 암기는 괴로워]](https://github.com/tember8003/cpp/blob/main/baekjoon_20920.cpp)
 
 ***
+
+### 이분탐색
+
+[[랜선 자르기]](https://github.com/tember8003/cpp/blob/main/baekjoon_1654.cpp) [[나무 자르기]](https://github.com/tember8003/cpp/blob/main/baekjoon_2805.cpp)
