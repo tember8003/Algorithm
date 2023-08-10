@@ -149,7 +149,7 @@
 </br>
 </br>
 
-# 💻Programmers
+# 💻Programmers 깃허브 연동 전 그동안 한 것
 
 ***
 
