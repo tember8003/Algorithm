@@ -3,7 +3,7 @@
 ***
 ### 다이나믹 프로그래밍
 
-[[피보나치 함수]](https://github.com/tember8003/cpp/blob/main/baekjoon_1003.cpp)   [[이동하기]](https://github.com/tember8003/cpp/blob/main/baekjoon_11048.cpp)
+[[피보나치 함수]](https://github.com/tember8003/cpp/blob/main/baekjoon_1003.cpp) &nbsp;  [[이동하기]](https://github.com/tember8003/cpp/blob/main/baekjoon_11048.cpp)&nbsp;
 [[카드 구매하기]](https://github.com/tember8003/cpp/blob/main/baekjoon_11052.cpp) [[가장 긴 증가하는 부분 수열]](https://github.com/tember8003/cpp/blob/main/baekjoon_11053.cpp)
 [[가장 큰 증가하는 부분 수열]](https://github.com/tember8003/cpp/blob/main/baekjoon_11055.cpp)  [[구간 합 구하기 5]](https://github.com/tember8003/cpp/blob/main/baekjoon_11660.cpp)
 [[가장 긴 감소하는 부분 수열]](https://github.com/tember8003/cpp/blob/main/baekjoon_11722.cpp) [[2*n 타일링]](https://github.com/tember8003/cpp/blob/main/baekjoon_11726.cpp) [[2*n 타일링 2]](https://github.com/tember8003/cpp/blob/main/baekjoon_11727.cpp)
