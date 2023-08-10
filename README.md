@@ -22,7 +22,9 @@
 [[계단 오르기]](https://github.com/tember8003/cpp/blob/main/baekjoon_2579.c)&nbsp;
 [[줄어들지 않아]](https://github.com/tember8003/cpp/blob/main/baekjoon_2688.cpp)&nbsp; [[RGB거리]](https://github.com/tember8003/cpp/blob/main/baekjoon_1149.cpp)&nbsp;
 [[가장 긴 바이토닉 부분 수열]](https://github.com/tember8003/cpp/blob/main/baekjoon_11054.cpp)&nbsp; [[쉬운 계단 수]](https://github.com/tember8003/cpp/blob/main/baekjoon_10844.cpp)&nbsp;
-[[정수 삼각형]](https://github.com/tember8003/cpp/blob/main/baekjoon_1932.cpp)&nbsp;
+[[정수 삼각형]](https://github.com/tember8003/cpp/blob/main/baekjoon_1932.cpp)&nbsp; 
+
+[[알고리즘 수업 - 피보나치 수 1]](https://github.com/tember8003/java/blob/main/baekjoon_24416.java) &nbsp; [[LCS]](https://github.com/tember8003/java/blob/main/baekjoon_9251.java) &nbsp;
 
 
 
@@ -30,7 +32,9 @@
 
 ### 브루트포스 알고리즘
 
-[[수들의 합2]](https://github.com/tember8003/cpp/blob/main/baekjoon_2003.cpp) &nbsp;[[체스판 다시 칠하기]](https://github.com/tember8003/cpp/blob/main/baekjoon_1018.cpp)&nbsp;
+[[수들의 합2]](https://github.com/tember8003/cpp/blob/main/baekjoon_2003.cpp) &nbsp;[[체스판 다시 칠하기]](https://github.com/tember8003/cpp/blob/main/baekjoon_1018.cpp)&nbsp; [[문자열]](https://github.com/tember8003/java/blob/main/baekjoon_1120.java) &nbsp;
+[[셀프넘버]](https://github.com/tember8003/java/blob/main/baekjoon_4673.java) &nbsp;
+
 
 ***
 
@@ -48,6 +52,8 @@
 [[도서관]](https://github.com/tember8003/cpp/blob/main/baekjoon_1461.cpp) &nbsp;[[전생했더니 슬라임 연구자였던 건에 대하여(Hard)]](https://github.com/tember8003/cpp/blob/main/baekjoon_14698.cpp) &nbsp;[[카드 정렬하기]](https://github.com/tember8003/cpp/blob/main/baekjoon_1715.cpp)&nbsp;
 
 [[신입 사원]](https://github.com/tember8003/cpp/blob/main/baekjoon_1946.cpp)&nbsp; [[등수 매기기]](https://github.com/tember8003/cpp/blob/main/baekjoon_2012.cpp)&nbsp;
+[[30]](https://github.com/tember8003/java/blob/main/baekjoon_10610.java) &nbsp; [[A와 B]](https://github.com/tember8003/java/blob/main/baekjoon_12904.java) &nbsp;
+
 
 
 
@@ -85,7 +91,9 @@
 [[골드바흐의 추측]](https://github.com/tember8003/cpp/blob/main/baekjoon_6588.cpp)&nbsp;
 [[숫자의 개수]](https://github.com/tember8003/cpp/blob/main/baekjoon_2577.c)&nbsp;
 [[나머지]](https://github.com/tember8003/cpp/blob/main/baekjoon_3052.c)&nbsp;
-[[최소공배수]](https://github.com/tember8003/cpp/blob/main/baekjoon_13241.cpp)&nbsp;
+[[최소공배수]](https://github.com/tember8003/cpp/blob/main/baekjoon_13241.cpp)&nbsp; 
+
+[[창문 닫기]](https://github.com/tember8003/java/blob/main/baekjoon_13909.java) &nbsp;
 
 
 ***
@@ -116,13 +124,26 @@
 
 ### 맵
 
-[[숫자 카드]](https://github.com/tember8003/cpp/blob/main/baekjoon_10815.cpp) &nbsp;[[영단어 암기는 괴로워]](https://github.com/tember8003/cpp/blob/main/baekjoon_20920.cpp)&nbsp;
+[[숫자 카드]](https://github.com/tember8003/cpp/blob/main/baekjoon_10815.cpp) &nbsp;[[영단어 암기는 괴로워]](https://github.com/tember8003/cpp/blob/main/baekjoon_20920.cpp)&nbsp; [[인사성 밝은 곰곰이]](https://github.com/tember8003/java/blob/main/backjoon_25192.java)&nbsp;
+[[단어 수학]](https://github.com/tember8003/java/blob/main/baekjoon_1339.java) &nbsp; [[회사에 있는 사람]](https://github.com/tember8003/java/blob/main/baekjoon_7785.java) &nbsp;
+
+***
+
+### 해시셋
+
+[[붙임성 좋은 총총이]](https://github.com/tember8003/java/blob/main/baekjoon_26069.java) &nbsp;
 
 ***
 
 ### 이분탐색
 
 [[랜선 자르기]](https://github.com/tember8003/cpp/blob/main/baekjoon_1654.cpp) &nbsp;[[나무 자르기]](https://github.com/tember8003/cpp/blob/main/baekjoon_2805.cpp)&nbsp;
+[[게임]](https://github.com/tember8003/java/blob/main/baekjoon_1072.java) &nbsp;
+
+***
+
+### 문자열
+[[문자열 집합]](https://github.com/tember8003/java/blob/main/baekjoon_14425.java) &nbsp; [[너의 평점은]](https://github.com/tember8003/java/blob/main/baekjoon_25206.java) &nbsp;
 
 ***
 </br>
