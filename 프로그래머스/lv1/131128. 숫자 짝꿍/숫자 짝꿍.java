@@ -1,3 +1,4 @@
+//다른사람 풀이 참고했음. -> 가장 좋아요 많이 받은 풀이 참고
 import java.util.*;
 class Solution {
     public String solution(String X, String Y) {
