@@ -3,7 +3,8 @@
 #include <algorithm>
 #include <vector>
 #include <string>
-//https://patrick-jy.tistory.com/118
+//https://patrick-jy.tistory.com/118 <-재귀방식이니 참고해도 좋을 것 같다.
+//기본적으로 ios::sync_with_stdio(false);,cin.tie(NULL),"\n"으로 답을 써야 정답이 나오는 문제. 아니면 시간초과 나옴
 using namespace std;
 int n, m, temp;
 struct arr {
