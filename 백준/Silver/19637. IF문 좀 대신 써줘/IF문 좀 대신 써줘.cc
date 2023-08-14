@@ -14,18 +14,19 @@ struct arr {
 arr arrays[100000];
 
 arr search(int po, int left, int right) {
-	if (left <= right) {
+	int answer = 0;
+	while (left <= right) {
 		int mid = (left + right) / 2;
 		if (po <= arrays[mid].point) {
-			return search(po, left, mid - 1);
+			answer = mid;
+			right = mid - 1;
 		}
 		else {
-			return search(po, mid + 1, right);
+			left = mid + 1;
 		}
 	}
-	else {
-		return arrays[left]; // ?
-	}
+	return arrays[answer];
+
 }
 int main() {
 	ios::sync_with_stdio(false);
