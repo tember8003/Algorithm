@@ -1,3 +1,4 @@
+//계속 틀려서 https://www.crocus.co.kr/621 에서 코드 따옴.
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <cstdio>
