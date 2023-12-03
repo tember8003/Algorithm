@@ -6,15 +6,22 @@ long long dp[100001][4];
 int solution(vector<vector<int> > land)
 {
     int answer = 0;
-    for(int i=0; i<land.size()-1; i++){
-        land[i+1][0]+=max(land[i][1],max(land[i][2],land[i][3]));
-        land[i+1][1]+=max(land[i][0],max(land[i][2],land[i][3]));
-        land[i+1][2]+=max(land[i][0],max(land[i][1],land[i][3]));
-        land[i+1][3]+=max(land[i][0],max(land[i][1],land[i][2]));
+    int d = land.size();
+    for(int i=0; i<4; i++){
+        dp[0][i]=land[0][i];
+    }
+    for(int i=1; i<d; i++){
+        for(int j=0; j<4; j++){
+            for(int k=0; k<4; k++){
+                if(k!=j){
+                    dp[i][j]=max(dp[i][j],dp[i-1][k]+land[i][j]);
+                }
+            }
+        }
     }
     for(int i=0; i<4; i++){
-        if(land[land.size()-1][i] > answer){
-            answer=land[land.size()-1][i];
+        if(answer < dp[d-1][i]){
+            answer=dp[d-1][i];
         }
     }
     return answer;
