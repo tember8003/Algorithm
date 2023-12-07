@@ -7,7 +7,7 @@
 #include <algorithm>
 //https://doorrock.tistory.com/53
 using namespace std;
-int sum[26][2001];
+int sum[26][200001];
 int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
