@@ -8,8 +8,8 @@ int n;
 int chess[16][16];
 
 bool isSafe(vector<int>& board, int cnt, int check) {
-	for (int pastrow = 0; pastrow < cnt; pastrow++) {
-		if (board[pastrow] == check || abs(pastrow-cnt) == abs(board[pastrow]-check)) {//같은 행,열,대각선에 있으면 안됨.
+	for (int past_row = 0; past_row < cnt; past_row++) {
+		if (board[past_row] == check || abs(past_row-cnt) == abs(board[past_row]-check)) {//같은 행,열,대각선에 있으면 안됨.
 			return false;
 		}
 	}
@@ -23,7 +23,7 @@ void solve(vector<int>& board, int cnt, long long& ans) {
 		return;
 	}
 	for (int i = 0; i < n; i++) { //열로 설정
-		if (isSafe(board, cnt, i)) { //visited[i] 같은 역할
+		if (isSafe(board, cnt, i)) {  
 			board[cnt] = i;
 			solve(board, cnt + 1, ans);
 			board[cnt] = -1;
