@@ -4,8 +4,8 @@
 using namespace std;
 
 int solution(int n, int m, vector<int> section) {
-    int answer = 0; int paint=0;
-    for(int i=0; i<section.size(); i++){
+    int answer = 1; int paint=section[0]+m;
+    for(int i=1; i<section.size(); i++){
         if(paint > section[i]){
             continue;
         }
