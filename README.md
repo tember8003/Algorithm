@@ -91,9 +91,9 @@
 [[수들의 합]](https://github.com/tember8003/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Previous_Baekjoon/baekjoon_1789.cpp)&nbsp; [[조합 0의 개수]](https://github.com/tember8003/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Previous_Baekjoon/baekjoon_2004.cpp) &nbsp;
 [[골드바흐의 추측]](https://github.com/tember8003/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Previous_Baekjoon/baekjoon_6588.cpp)&nbsp;
 [[숫자의 개수]](https://github.com/tember8003/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Previous_Baekjoon/baekjoon_2577.c)&nbsp;
+
 [[나머지]](https://github.com/tember8003/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Previous_Baekjoon/baekjoon_3052.c)&nbsp;
 [[최소공배수]](https://github.com/tember8003/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Previous_Baekjoon/baekjoon_13241.cpp)&nbsp; 
-
 [[창문 닫기]](https://github.com/tember8003/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Previous_Baekjoon/baekjoon_13909.java) &nbsp;
 
 
