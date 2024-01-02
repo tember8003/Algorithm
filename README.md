@@ -86,7 +86,8 @@
 
 ### 수학
 
-[[잃어버린 괄호]](https://github.com/tember8003/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Previous_Baekjoon/baekjoon_1541.cpp) &nbsp;[[골드바흐 파티션]](https://github.com/tember8003/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Previous_Baekjoon/baekjoon_17103.cpp)&nbsp; [[약수의 합 2]](https://github.com/tember8003/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Previous_Baekjoon/baekjoon_17427.cpp)&nbsp;
+[[잃어버린 괄호]](https://github.com/tember8003/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Previous_Baekjoon/baekjoon_1541.cpp) &nbsp;
+[[정답은 이수근이야!!]](https://github.com/tember8003/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Previous_Baekjoon/baekjoon_15888.cpp) [[골드바흐 파티션]](https://github.com/tember8003/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Previous_Baekjoon/baekjoon_17103.cpp)&nbsp; [[약수의 합 2]](https://github.com/tember8003/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Previous_Baekjoon/baekjoon_17427.cpp)&nbsp;
 [[수들의 합]](https://github.com/tember8003/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Previous_Baekjoon/baekjoon_1789.cpp)&nbsp; [[조합 0의 개수]](https://github.com/tember8003/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Previous_Baekjoon/baekjoon_2004.cpp) &nbsp;
 [[골드바흐의 추측]](https://github.com/tember8003/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Previous_Baekjoon/baekjoon_6588.cpp)&nbsp;
 [[숫자의 개수]](https://github.com/tember8003/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Previous_Baekjoon/baekjoon_2577.c)&nbsp;
