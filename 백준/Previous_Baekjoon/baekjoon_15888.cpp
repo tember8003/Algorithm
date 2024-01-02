@@ -1,4 +1,4 @@
-//이수근
+//정답은 이수근이야!!
 //수학
 #include <iostream>
 #include <string>
