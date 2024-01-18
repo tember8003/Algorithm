@@ -1,7 +1,7 @@
 #include <string>
 #include <vector>
 #include <algorithm>
-
+//https://0xd00d00.github.io/2021/06/29/programmers_entry_test.html 참고
 using namespace std;
 
 long long solution(int n, vector<int> times) {
