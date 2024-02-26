@@ -1,18 +1,19 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class Main { // 쉬운 최단거리
+public class Main {
 	static int arr[][], result[][], n, m;
 	static int dx[]= {-1,1,0,0};
 	static int dy[]= {0,0,-1,1};
 	static boolean visited[][];
 	public static void main(String[] args) throws IOException {
-		BufferedReader bf=new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st=new StringTokenizer(bf.readLine());
+		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st=new StringTokenizer(br.readLine());
 
 		// 지도의 크기
 		n=Integer.parseInt(st.nextToken());
@@ -23,7 +24,7 @@ public class Main { // 쉬운 최단거리
 		visited=new boolean[n][m]; // 방문 여부
 		int x=0,y=0;
 		for(int i=0; i<n; i++) {
-			st=new StringTokenizer(bf.readLine());
+			st=new StringTokenizer(br.readLine());
 			for(int j=0; j<m; j++) {
 				arr[i][j]=Integer.parseInt(st.nextToken());
 				if(arr[i][j]==2) {  // 목표 지점
@@ -32,7 +33,7 @@ public class Main { // 쉬운 최단거리
 				}else if(arr[i][j]==0) visited[i][j]=true; // 갈 수 없는 땅
 			}
 		}
-		search(x,y);
+		bfs(x,y);
 
 		for(int i=0; i<n; i++) {
 			for(int j=0; j<m; j++) {
@@ -44,7 +45,7 @@ public class Main { // 쉬운 최단거리
 			System.out.println();
 		}
 	}
-	private static void search(int x, int y) {
+	private static void bfs(int x, int y) {
 		Queue<int[]>queue=new LinkedList<>();
 		queue.add(new int[] {x,y});
 		visited[x][y]=true;
@@ -64,4 +65,6 @@ public class Main { // 쉬운 최단거리
 			}
 		}
 	}
+	
+	
 }
