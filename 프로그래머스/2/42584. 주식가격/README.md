@@ -56,3 +56,6 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
+>
+> ### 문제 풀이 참고
+> [[QUEUE 풀이]](https://hstory0208.tistory.com/entry/Java%EC%9E%90%EB%B0%94-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-Lv2-%EC%A3%BC%EC%8B%9D-%EA%B0%80%EA%B2%A9Stack)
