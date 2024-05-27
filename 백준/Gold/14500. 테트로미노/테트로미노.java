@@ -32,8 +32,8 @@ public class Main {
 		for(int i=1; i<=N; i++) { //dfs 실행
 			for(int j=1; j<=M; j++) {
 				if(!visited[i][j]) {
-					visited[i][j]= true;
-					dfs(j,i,1,map[i][j]);
+					visited[i][j]= true; //초기 위치 방문
+					dfs(j,i,1,map[i][j]); 
 					visited[i][j]= false;
 				}
 			}
