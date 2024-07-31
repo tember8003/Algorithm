@@ -11,7 +11,7 @@ import java.util.StringTokenizer;
 public class Main {
 	static int n,m;
 	static int modifyN; //중복 제거한 배열 길이
-	static int[] arr; 
+	static ArrayList<Integer> list;
 	static Set<Integer> set = new HashSet<Integer>(); //set으로 중복 걸러내기
 	
 	public static void main(String[] args) throws IOException{
@@ -26,14 +26,9 @@ public class Main {
 		}
 		
 		modifyN=set.size(); //수정된 길이
-		arr= new int[modifyN]; //수정된 길이로 배열 설정
 		
-		ArrayList<Integer> list = new ArrayList<>(set); // set을 ArrayList로 변경
+		list = new ArrayList<>(set); // set을 ArrayList로 변경
 		Collections.sort(list, (o1,o2) -> o1 - o2); // 오름차순 정렬
-		
-		for(int i=0; i<modifyN; i++) { //배열 입력하기
-			arr[i]=list.get(i);
-		}
 		
 		repeat("",0,0); //재귀 사용
 		
@@ -45,8 +40,7 @@ public class Main {
 		}
 		
 		for(int i=idx; i<modifyN; i++) {
-			repeat(str+Integer.toString(arr[i])+" ",length+1,i);
+			repeat(str+Integer.toString(list.get(i))+" ",length+1,i);
 		}
 	}
-
 }
