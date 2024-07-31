@@ -10,9 +10,10 @@ import java.util.StringTokenizer;
 
 public class Main {
 	static int n,m;
-	static int modifyN;
-	static int[] arr;
-	static Set<Integer> set = new HashSet<Integer>();
+	static int modifyN; //중복 제거한 배열 길이
+	static int[] arr; 
+	static Set<Integer> set = new HashSet<Integer>(); //set으로 중복 걸러내기
+	
 	public static void main(String[] args) throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
@@ -20,28 +21,32 @@ public class Main {
 		m = Integer.parseInt(st.nextToken());
 		
 		st = new StringTokenizer(br.readLine());
-		for(int i=0; i<n; i++) {
+		for(int i=0; i<n; i++) { //set에 입력하기
 			set.add(Integer.parseInt(st.nextToken()));
 		}
-		modifyN=set.size();
-		arr= new int[modifyN];
+		
+		modifyN=set.size(); //수정된 길이
+		arr= new int[modifyN]; //수정된 길이로 배열 설정
+		
 		ArrayList<Integer> list = new ArrayList<>(set); // set을 ArrayList로 변경
 		Collections.sort(list, (o1,o2) -> o1 - o2); // 오름차순 정렬
 		
-		for(int i=0; i<modifyN; i++) {
+		for(int i=0; i<modifyN; i++) { //배열 입력하기
 			arr[i]=list.get(i);
 		}
 		
-		repeat("",0,0);
+		repeat("",0,0); //재귀 사용
 		
 	}
-	public static void repeat(String str, int length,int idx) {
-		if(length==m) {
+	public static void repeat(String str, int length,int idx) { //문자열, 길이, 반복문 시작 인덱스
+		if(length==m) { //만족하는 길이가 됐다면 출력하기
 			System.out.println(str);
 			return;
 		}
+		
 		for(int i=idx; i<modifyN; i++) {
 			repeat(str+Integer.toString(arr[i])+" ",length+1,i);
 		}
 	}
+
 }
