@@ -6,42 +6,43 @@ import java.util.StringTokenizer;
 
 public class Main {
 
-	public static void main(String[] args) throws IOException {
-		BufferedReader br =new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st =new StringTokenizer(br.readLine());
-		int n = Integer.parseInt(st.nextToken());
-		int m = Integer.parseInt(st.nextToken());
-		int[] arr = new int[n];
+	public static void main(String[] args) throws IOException{
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		
+		int N = Integer.parseInt(st.nextToken());
+		int M = Integer.parseInt(st.nextToken());
+		
+		long[] arr = new long[N];
 		st = new StringTokenizer(br.readLine());
-		for(int i=0; i<n; i++) {
-			arr[i]=Integer.parseInt(st.nextToken());
+		for(int i=0; i<N; i++) {
+			arr[i] = Long.parseLong(st.nextToken());
 		}
+		
 		Arrays.sort(arr);
-		long left=1;
-		long right=arr[n-1];
-		long result=0;
-		while(left<=right) {
-			long sum=0;
-			long mid=(left+right)/2;
-			for(int i=0; i<n; i++) {
+		long left = 1;
+		long right = arr[N-1];
+		long min_M = 0;
+		while(left <= right) {
+			long sum = 0;
+			long mid = (left+right)/2;
+			for(int i=0; i<N; i++) {
 				if(arr[i] < mid) {
 					continue;
 				}
 				else {
-					sum+=arr[i]-mid;
+					sum += arr[i] - mid;
 				}
 			}
-			if(sum >=m) {
-				left=mid+1;
-				if(result < mid) {
-					result = mid;
-				}
+			
+			if(sum >= M) {
+				left = mid +1;
+				min_M = Math.max(min_M, mid);
 			}
 			else {
-				right=mid-1;
+				right = mid -1;
 			}
 		}
-		System.out.println(result);
+		System.out.println(min_M);
 	}
-
 }
