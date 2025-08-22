@@ -1,81 +1,91 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 
 public class Main {
-    static int cnt = 0;
-
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int n = Integer.parseInt(br.readLine());
-
-        String[] str = br.readLine().split(" ");
-        StringBuilder originSb = new StringBuilder();
-        for(int i = 0; i < n; i++){
-            originSb.append(str[i]);
-        }
-        String origin = originSb.toString();
-
-        String[] pstr = br.readLine().split(" ");
-        StringBuilder patternSb = new StringBuilder();
-        for(int i = 0; i < n; i++){
-            patternSb.append(pstr[i]);
-        }
-        String pattern = patternSb.toString();
+    public static int[] failure;
+    public static int n;
+    public static char[] pattern;
+    public static char[] target;
+    
+    // 올바른 KMP 알고리즘
+    public static int kmp() {
+        int i = 0, j = 0;
+        int lent = target.length;
+        int lenp = pattern.length;
+        int count = 0;
         
-        String temp = origin + origin.substring(0, origin.length() - 1);
-        kmp(temp, pattern);
-
-        int bunmo = n;
-        int bunja = cnt;
-        int g = gcd(bunmo, bunja);
-        bunmo /= g;
-        bunja /= g;
-
-        System.out.println(bunja + "/" + bunmo);
-    }
-
-    public static int gcd(int a, int b) {
-        if (b == 0) {
-            return a;
-        }
-        return gcd(b, a % b);
-    }
-
-    public static void kmp(String text, String pattern) {
-        cnt = 0;
-        int[] pi = createPiArray(pattern);
-        int j = 0;
-
-        for(int i = 0; i < text.length(); i++) {
-            while(j > 0 && text.charAt(i) != pattern.charAt(j)) {
-                j = pi[j - 1];
-            }
-            if (text.charAt(i) == pattern.charAt(j)) {
-                if (j == pattern.length() - 1) {
-                    cnt++;
-                    j = pi[j];
-                } else {
-                    j++;
+        while(i < lent) {
+            if(target[i] == pattern[j]) {
+                i++;
+                j++;
+                if(j == lenp) { // 매칭 완료
+                    if(i - j < n) count++; // 첫번째 N칸 내에서만 카운트
+                    j = failure[j - 1]; // 올바른 점프
                 }
             }
+            else if(j == 0) {
+                i++;
+            }
+            else {
+                j = failure[j - 1]; // 올바른 점프
+            }
+        }
+        return count;
+    }
+    
+    // 올바른 실패 함수 생성
+    public static void makeFailure() {
+        int j = 0;
+        for(int i = 1; i < pattern.length; i++){
+            while(j > 0 && pattern[i] != pattern[j]) {
+                j = failure[j - 1];
+            }
+            if(pattern[i] == pattern[j]) {
+                failure[i] = ++j;
+            }
         }
     }
-
-    public static int[] createPiArray(String pattern) {
-        int length = pattern.length();
-        int[] pi = new int[length];
-        int j = 0;
-
-        for(int i = 1; i < length; i++) {
-            while(j > 0 && pattern.charAt(i) != pattern.charAt(j)) {
-                j = pi[j - 1];
-            }
-            if(pattern.charAt(i) == pattern.charAt(j)) {
-                j++;
-                pi[i] = j;
-            }
+    
+    // 기약분수 계산을 위해 gcd를 계산하는 메소드
+    public static int gcd(int a, int b){
+        while(b != 0){
+            int temp = b;
+            b = a % b;
+            a = temp;
         }
-        return pi;
+        return a;
+    }
+    
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+        
+        n = Integer.parseInt(br.readLine());
+        String[] patternStr = br.readLine().split(" ");
+        String[] targetStr = br.readLine().split(" ");
+        
+        pattern = new char[n];
+        target = new char[2 * n - 1]; // 올바른 크기
+        
+        for(int i = 0; i < n; i++) {
+            pattern[i] = patternStr[i].charAt(0);
+            target[i] = targetStr[i].charAt(0);
+        }
+        
+        // 원형 문자열 처리: 마지막 문자 제외하고 앞부분 복사
+        for(int i = 0; i < n - 1; i++) {
+            target[i + n] = targetStr[i].charAt(0);
+        }
+        
+        failure = new int[n]; // 자동으로 0으로 초기화됨
+        makeFailure();
+        
+        int matchCount = kmp();
+        int g = gcd(matchCount, n);
+        String result = (matchCount / g) + "/" + (n / g);
+        
+        bw.write(result);
+        bw.flush();
+        bw.close();
+        br.close();
     }
 }
